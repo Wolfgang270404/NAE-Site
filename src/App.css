@@ -1,0 +1,122 @@
+/* Alinhamento e cor de fundo da aplicação */
+.App {
+  text-align: center;
+  background: #DFD7ED;
+}
+
+/* Logo da aplicação */
+.App-logo {
+  height: 40vmin; /* Escala da logo em relação à viewport */
+  pointer-events: none; /* Evita interações com a logo */
+}
+
+/* Animação para a logo (se a preferência de movimento não for reduzida) */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Animação contínua de rotação */
+  }
+}
+
+/* Cabeçalho da aplicação */
+.App-header {
+  background-color: #282c34; /* Cor de fundo escura */
+  min-height: 100vh; /* Altura mínima da tela */
+  display: flex; /* Layout flexível */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  font-size: calc(10px + 2vmin); /* Tamanho de fonte adaptável */
+  color: white; /* Cor do texto */
+}
+
+/* Links na aplicação */
+.App-link {
+  color: #61dafb; /* Cor azul clara */
+}
+
+/* Animação de rotação da logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Cor de fundo com gradiente (exemplo de classe de fundo) */
+.bg-body-tertiary {
+  background: linear-gradient(135deg, #9A4DFF 0%, #F600DD 100%); /* Gradiente da esquerda para a direita */
+}
+
+/* Título menor (h7)*/
+h7 {
+  font-family: 'Inter';
+  font-weight: 1000; /* Valor máximo para a espessura da fonte */
+  color: #4000F3; /* Cor do texto */
+}
+
+/* Parágrafos da aplicação */
+p {
+  padding-top: 16px; /* Espaço no topo */
+  color: white; /* Cor do texto */
+  font-size: 18px; /* Tamanho da fonte */
+  font-weight: 400; /* Peso da fonte */
+  font-family: 'Inter'; /* Fonte Inter */
+}
+
+/* Título principal (h1)*/
+h1 {
+  font-size: 32px; /* Tamanho da fonte */
+  font-weight: 1000; /* Valor máximo para a espessura da fonte */
+  padding-top: 50px; /* Espaço superior */
+  padding-bottom: 50px; /* Espaço inferior */
+  font-family: 'Inter'; /* Fonte Inter */
+  background: linear-gradient(135deg, #9A4DFF 0%, #F600DD 100%); /* Gradiente da esquerda para a direita */
+  -webkit-background-clip: text; /* Clip do fundo no texto (compatibilidade com webkit) */
+  -webkit-text-fill-color: transparent; /* Faz o texto ser preenchido com o fundo */
+  background-clip: text; /* Clip do fundo no texto */
+}
+
+h2 {
+  font-size: 32px; /* Tamanho da fonte */
+  font-weight: 1000; /* Valor máximo para a espessura da fonte */
+  padding-top: 50px; /* Espaço superior */
+  padding-bottom: 50px; /* Espaço inferior */
+  text-align: left;
+  margin-left: 150px;
+  font-family: 'Inter'; /* Fonte Inter */
+  background: linear-gradient(135deg, #9A4DFF 0%, #F600DD 100%); /* Gradiente da esquerda para a direita */
+  -webkit-background-clip: text; /* Clip do fundo no texto (compatibilidade com webkit) */
+  -webkit-text-fill-color: transparent; /* Faz o texto ser preenchido com o fundo */
+  background-clip: text; /* Clip do fundo no texto */
+}
+
+/* Estilização de imagens */
+.image-evento {
+  width: 450px; /* Largura da imagem */
+  height: 300px; /* Altura da imagem */
+  object-fit: cover; /* Ajusta a imagem para cobrir o container */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+/* Container para posicionamento relativo */
+.container {
+  position: relative;
+  text-align: center; /* Alinhamento central do texto */
+  color: rgb(0, 0, 0); /* Cor do texto */
+}
+
+/* Texto na parte inferior esquerda */
+.bottom-left {
+  position: absolute;
+  bottom: 8px; /* Posição inferior */
+  left: 16px; /* Posição à esquerda */
+  backdrop-filter: blur(10px); /* Filtro de desfoque no fundo */
+  border-radius: 10px; /* Bordas arredondadas */
+  margin-left: 15px; /* Margem à esquerda */
+}
+
+
+
+
